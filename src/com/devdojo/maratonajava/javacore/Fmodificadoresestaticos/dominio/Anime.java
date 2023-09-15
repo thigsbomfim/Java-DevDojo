@@ -3,7 +3,7 @@ package com.devdojo.maratonajava.javacore.Fmodificadoresestaticos.dominio;
 public class Anime {
   // Bloco de inicialização estático
 
-  // Ordem de seguimento de uma classe
+  // Ordem de seguimento de uma classe - ordem de inicialização de uma classe
   // 0 - Bloco de inicialização estático é executado apenas uma vez quando a JVM carregar a classe
   // 1 - Alocado espaço em memória do objeto
   // 2 - Cada atributo de classe é criado e inicializado com valores default ou o que for passado
