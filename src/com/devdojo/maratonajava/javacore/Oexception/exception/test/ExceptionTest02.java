@@ -7,7 +7,8 @@ import java.io.IOException;
 public class ExceptionTest02 {
   public static void main(String[] args) {
 
-    criarNovoArquivo();
+    // tratar
+    // criarNovoArquivo();
   }
 
   // quando usamos o throws na criação do método, jogamos a responsabilidade de tratar o método para o método que está

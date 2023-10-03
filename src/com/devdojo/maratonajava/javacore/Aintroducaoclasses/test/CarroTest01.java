@@ -25,5 +25,4 @@ public class CarroTest01 {
     System.out.println(car2.modelo);
     System.out.println(car2.ano);
   }
-
 }

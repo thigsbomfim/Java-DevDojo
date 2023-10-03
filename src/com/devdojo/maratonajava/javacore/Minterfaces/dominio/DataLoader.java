@@ -11,7 +11,7 @@ public interface DataLoader {
 
   // quando usamos o default, estamos dizendo que a própria interface está definindo o método
   // por padrão os métodos na interface recebem o modificador public e abstract, mas se você não quiser criar dessa
-  // forma, use default para substir
+  // forma, use default para substituir
   public default void checkPermission(){
     System.out.println("Fazendo checagem de permissões");
   };
