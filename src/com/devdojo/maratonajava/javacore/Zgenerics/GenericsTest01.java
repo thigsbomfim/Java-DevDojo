@@ -43,7 +43,7 @@ public class GenericsTest01 {
 
 
     // O Generics, foi algo que foi adicionado em tempo de compilação, ou seja, quando colocamos o tipo dentro do "<>"
-    // estamos forçando em tempo de compilação, ou seja, o compilador não vai deixar a gente executar o código
+    // estamos forçando em tempo de compilação, ou seja, o compilador não vai deixar a gente executar o código.
     // no começo do generics, também era passado o tipo na declaração do objeto que está sendo instânciado "ArrayList"
     // onde o tipo não poderia ser diferente do tipo passado no generics da List
 //      List<String> lista = new ArrayList<String>();
@@ -97,7 +97,7 @@ public class GenericsTest01 {
     // MÉTODO COM GENERICS
     // aqui o método está sendo criado corretamente, ele vai fazer a validação dos tipos em tempo de compilação, ele não
     // deixa o código passar para JVM se não tomar cuidado e colocar o tipo corretamente
-    public static void add(List lista, Consumidor consumidor){
+    public static void add(List<String> lista, Consumidor consumidor){
     // digamos que estamos criando uma lista de consumidores
       lista.add(consumidor);
     }
