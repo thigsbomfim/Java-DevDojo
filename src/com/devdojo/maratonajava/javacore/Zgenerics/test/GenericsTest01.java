@@ -1,4 +1,4 @@
-package com.devdojo.maratonajava.javacore.Zgenerics;
+package com.devdojo.maratonajava.javacore.Zgenerics.test;
 
 import com.devdojo.maratonajava.javacore.Ycolecoes.dominio.Consumidor;
 
